@@ -1,0 +1,16 @@
+{
+    "name": "Search On Wikipedia V3",
+    "description": "Highlight a word to search on Wikipedia article",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "icons": {
+        "16": "pencil.svg"
+    }
+}
