@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Popout Window",
+    "description": "How to display popout window",
+    "version": "1.0.0",
+    "permissions": [
+        "windows"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": "icon-34.png"
+    }
+}
